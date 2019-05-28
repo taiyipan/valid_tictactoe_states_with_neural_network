@@ -1,4 +1,7 @@
 class valid_states_fc:
+'''
+This function determines whether a tictactoe state is valid or not
+'''
     def valid(self, state):
         x = 1
         s = 0
