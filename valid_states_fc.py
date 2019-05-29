@@ -1,8 +1,8 @@
-class valid_states_fc:
 '''
 This function determines whether a tictactoe state is valid or not
 '''
-    def valid(self, state):
+class valid_states_fc:
+    def valid(state):
         x = 1
         s = 0
         o = -1
@@ -82,9 +82,9 @@ This function determines whether a tictactoe state is valid or not
         # result valid state flag
         return valid
 
-valid_state = valid_states_fc()
-state = [1, -1, 1, -1, -1, 1, 1, -1, 0]
-print(valid_state.valid(state))
+# valid_state = valid_states_fc()
+# state = [1, -1, 1, -1, -1, 1, 1, -1, 0]
+# print(valid_state.valid(state))
 
 
 
