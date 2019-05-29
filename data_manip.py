@@ -53,28 +53,3 @@ manip = data_manip()
 states = manip.load_states()
 manip.create_labels(states)
 labels = manip.load_labels()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
